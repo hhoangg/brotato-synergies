@@ -1,0 +1,51 @@
+"workshopitem"
+{
+	"appid"            "1942280"
+	"publishedfileid"  "3745283747"
+	"contentfolder"    "__CONTENTFOLDER__"
+	"previewfile"      "__PREVIEWFILE__"
+	"title"            "Co-op Synergies — Roles, Skills & Affinities"
+	"description"      "[h1]Co-op Synergies[/h1]
+Turns Brotato co-op into a team game — every character gains an active skill, factions that buff (and nerf) when teamed up, and a role that reads at a glance. [b](Work in progress.)[/b]
+
+>>> MEDIA (hero): a short looping GIF/video of a 2-player co-op fight with a couple of skills firing (e.g. Engineer turret + a dash). Best first impression — replace this line. <<<
+
+[h1]What it adds[/h1]
+[b]Active skills[/b] — all 64 characters get their own button-triggered ability that fits their identity: the Engineer deploys a turret, the Ghost phases through enemies, the Creature leaves a curse cloud, the Lich chains lightning, and so on. Each unlocks at level 6 and grows stronger every 6 levels (5 tiers). Damage and healing scale with the wave, so skills stay relevant deep into Endless.
+
+>>> MEDIA (skills montage): a GIF showing 3-4 distinct skills back to back (turret / phase dash / curse cloud / chain lightning) so the variety is obvious — replace this line. <<<
+
+[b]Cooldowns by class[/b] — instead of one fixed cooldown, skills come in three speeds: low-impact ones recharge fast (~4 casts/wave), most are normal (~2/wave), and big payoff skills are slow (~1/wave). Different characters, different rhythms.
+[b]Affinities[/b] — characters that share a theme (a shipwrecked crew, a coven, a war band…) gain a team buff AND a nerf when ≥2 of them play together — a trade-off, like drafting a composition.
+[b]Roles[/b] — every character reads as AD, Caster, Tank, Support, Late, Skirmisher, or Flex, so a co-op party becomes a team comp.
+
+>>> MEDIA (char-select card): a screenshot of the character-select skill card (the stat rows + flavor line) so players see the in-game info panel — replace this line. <<<
+
+[h1]Browse every skill & faction[/h1]
+The full list — each character's skill, tier-by-tier numbers, and the faction trade-offs — is on the companion site:
+[b]https://brotato.byptah.com/synergies[/b]
+
+>>> MEDIA (website): a screenshot of the brotato.byptah.com/synergies skill grid — replace this line. <<<
+
+[h1]Controls[/h1]
+[b]Space[/b] (keyboard) or [b]A[/b] (controller, bottom face button) fires your skill. In co-op each player triggers their own. Toggle the whole system on/off in Options → Accessibility, or right in the Run Options panel when Co-op is on.
+
+>>> MEDIA (toggle): a screenshot of the Run Options panel showing the Synergies toggle under Co-op — replace this line. <<<
+
+[h1]Work in progress — your feedback helps[/h1]
+This mod is still in active development, so expect the occasional bug or rough edge. If something feels off, breaks, or you have an idea, please drop a comment below starting with [b][ISSUE][/b] or [b][FEEDBACK][/b] — I read and sort every one of them.
+
+[b]Tiếng Việt:[/b] Biến co-op Brotato thành game đồng đội — cả 64 nhân vật đều có một skill chủ động hợp với chất riêng (Kỹ Sư đặt trụ, Hồn Ma lướt xuyên địch, Quái Vật thả mây nguyền, Lich phóng sét lan…), mở ở cấp 6 và mạnh thêm mỗi 6 cấp (5 bậc); sát thương/hồi máu tăng theo wave nên không lỗi thời ở Endless. Hồi chiêu chia 3 tốc độ: skill nhẹ hồi nhanh (~4 lần/màn), đa số bình thường (~2/màn), skill mạnh thì chậm (~1/màn). Các nhân vật cùng phe theo lore tạo buff kèm nerf khi đủ 2+ người đi chung, và phân vai AD/Caster/Tank/Support/Late/Skirmisher/Flex. Bấm [b]Space[/b] (bàn phím) hoặc [b]A[/b] (tay cầm) để dùng skill; co-op mỗi người dùng skill riêng. Bật/tắt cả hệ thống ở Options → Accessibility hoặc ngay trong bảng Run Options khi đang Co-op. Xem toàn bộ skill & phe tại [b]https://brotato.byptah.com/synergies[/b]
+
+[b]Mod đang trong quá trình phát triển[/b] nên sẽ có lúc lỗi hoặc chưa mượt. Nếu bạn thấy gì chưa ổn, bị lỗi, hoặc có ý tưởng, hãy comment bên dưới với tiền tố [b][ISSUE][/b] hoặc [b][FEEDBACK][/b] — mình đọc và phân tích từng góp ý.
+
+Requires Godot Mod Loader.
+
+[h1]Support / Donate[/h1]
+Made for fun and free — if you'd like to support development, donations are welcome:
+[b]SOL:[/b] BrbAhUTN6EPPnPLg9C4823esQyxCHKYfe8SyxF7oyeZF
+[b]ETH:[/b] 0x2ba15d62dc27e45e4cb5ecada8969f2b13e7d534
+[b]BTC:[/b] bc1p4sn9quh0g72rmmr4j5chyauc3msj2xxva4rw8kd0w93a8dkt3gcsn253gh
+Thank you!"
+	"changenote"       "v0.39.14 — FIX: co-op active-skill player/input mapping. The mod read CoopService.connected_players[i][1] as the player slot, but that field is the controller TYPE (keyboard/Xbox/PlayStation/Switch) — the slot is the entry's index. Result: inputs were cross-mapped between players, and with two same-brand pads (or Steam Remote Play Together) one player got no skill at all. Places are now derived from the player index, so keyboard+controller, two controllers and Remote Play Together all route each player to their own skill. Thanks to ReJlax for the report and the diagnosis."
+}

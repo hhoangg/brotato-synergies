@@ -1,0 +1,17 @@
+{
+	"name": "Synergies",
+	"namespace": "tato",
+	"version_number": "0.39.14",
+	"description": "Co-op depth: each character gets an active skill (unlocks at level 6, upgrades every 6 levels) on a free button, plus faction affinities that grant a buff and a nerf when related characters team up. Roles + skills + synergies — co-op as a team draft.",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["byptah"],
+			"compatible_mod_loader_version": ["6.0.0"],
+			"compatible_game_version": [],
+			"config_defaults": {}
+		}
+	}
+}

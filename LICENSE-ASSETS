@@ -1,0 +1,22 @@
+# Asset license
+
+The CODE in this repository is MIT-licensed (see LICENSE).
+
+The ART, AUDIO and other non-code assets ORIGINAL TO THIS MOD are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0):
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You may copy, remix, adapt and redistribute them, for any purpose including
+commercially, as long as you give appropriate credit ("hhoangg / byptah", with a
+link back to this repository), provide a link to the licence, and indicate if
+changes were made.
+
+## Not covered by either licence
+
+- **Brotato** itself, and anything extracted from the game (sprites, sounds, names,
+  translations). Brotato is © Blobfish. This mod is an unofficial, unaffiliated
+  fan project; nothing here grants any right to the game's own assets.
+- Third-party asset packs used by the mod but not redistributed here. Where such a
+  pack exists it is listed in the README, along with where to obtain it. Its own
+  licence applies and it is deliberately excluded from this repository.
